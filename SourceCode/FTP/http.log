@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2022-12-22-10-11-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1671684114.180275	C0Lepp4438vl0O3SA4	10.1.2.251	55685	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	FJsjaF1lzZLwXPOWI6	-	text/plain
+1671684133.712061	Cgzmwi4dvXCWMXkrDl	10.1.3.124	34764	185.125.190.18	80	1	GET	connectivity-check.ubuntu.com	/	-	1.1	-	-	0	714	200	OK	-	-	(empty)	-	-	-	-	-	-	FTjowu4wAz4iwXUsJh	-	text/html
+1671684144.300552	C4bbDZ28s1WBwe2dgb	10.1.2.251	55689	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	FdguYm3ZKeZr9awyY1	-	text/plain
+1671684166.107257	Cf76yF1hoJhEV1SrV4	10.1.2.251	55745	91.108.23.100	80	1	POST	91.108.23.100:80	/api	-	1.1	Mozilla/5.0	-	228	0	200	OK	-	-	(empty)	-	-	-	Fj0S1mgxRUsoX1n49	-	-	-	-	-
+1671684166.114272	CvDx8y2YyMPdmqwI2g	10.1.2.251	55744	91.108.23.100	80	1	POST	91.108.23.100:80	/api	-	1.1	Mozilla/5.0	-	220	0	200	OK	-	-	(empty)	-	-	-	FCVEMgJnxi5HwrBO6	-	-	-	-	-
+1671684166.069582	C4CPT419j7cvNbKzD8	10.1.2.251	55743	91.108.56.140	80	1	POST	91.108.56.140:80	/api	-	1.1	Mozilla/5.0	-	248	124	200	OK	-	-	(empty)	-	-	-	FRs8AYWLllhpGLT7k	-	-	FN1usB3KufbW3x79Gi	-	-
+1671684166.070764	CzDKfz3H7vplbhlOh7	10.1.2.251	55737	91.108.56.140	80	1	POST	91.108.56.140:80	/api	-	1.1	Mozilla/5.0	-	244	0	200	OK	-	-	(empty)	-	-	-	FO0gEz4dORXzKjRrJe	-	-	-	-	-
+1671684166.106832	CCxd031krxd0R95VVl	10.1.2.251	55746	91.108.56.140	80	1	POST	91.108.56.140:80	/api	-	1.1	Mozilla/5.0	-	152	0	200	OK	-	-	(empty)	-	-	-	F8tYml1aLR0AISThq1	-	-	-	-	-
+1671684166.347185	CBpdvAKRx3ZJWvKRb	10.1.2.222	59306	10.1.2.251	5357	1	POST	10.1.2.251:5357	/8a11b6dd-de32-4916-9c83-e0369a4844ba/	-	1.1	WSDAPI	-	733	2205	200	(empty)	-	-	(empty)	-	-	-	Fvyo6YBolZRFAThWh	-	application/soap+xml	FCqkTC2h27X5qQnpq3	-	application/soap+xml
+1671684166.069587	CohuMb8qZVHBfn639	10.1.2.251	55738	91.108.23.100	80	1	POST	91.108.23.100:80	/api	-	1.1	Mozilla/5.0	-	224	0	200	OK	-	-	(empty)	-	-	-	FLLnIR16oJSOQ8pre9	-	-	-	-	-
+1671684166.115324	CekUYX1uvim3s6UVX6	10.1.2.251	55748	91.108.23.100	80	1	POST	91.108.23.100:80	/api	-	1.1	Mozilla/5.0	-	44	0	200	OK	-	-	(empty)	-	-	-	Fexutz4RkSboUNCYn1	-	-	-	-	-
+1671684168.032802	ChaY0M2eMYt8H5aMxa	10.1.2.251	55750	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	FSTCA02DJLyBtabcA9	-	text/plain
+1671684198.293624	CoAZbm3por4H2y6P9	10.1.2.251	55757	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	F5Q5AD3q2uGBMKnEL9	-	text/plain
+1671684228.485541	CevWIm4MDQUVFSAPgl	10.1.2.251	55762	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	FS8pz5cCQfde74Ka8	-	text/plain
+1671684260.659145	CMRFCu457qhZMEpngf	10.1.2.251	55771	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	FmfzYi3g35wnWLfcEb	-	text/plain
+1671684291.192204	C3Y7SF2RvCQiqH8hTc	10.1.2.251	55774	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	1.1	Microsoft NCSI	-	0	22	200	OK	-	-	(empty)	-	-	-	-	-	-	FjLUaz1R4GbG2k4Sxg	-	text/plain
+#close	2022-12-22-10-15-15

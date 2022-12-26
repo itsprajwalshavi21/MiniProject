@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2022-12-13-11-09-19
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1670909959.610446	FiVHM51IGQf7Jh0qoe	2600:9000:2354:aa00:b:6d14:85c0:93a1	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	CBXoAu4vkov2z5g6kh	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	472	-	0	0	F	-	-	-	-	-	-	-
+#close	2022-12-13-11-10-18

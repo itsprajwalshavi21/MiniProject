@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2022-12-21-20-57-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1671636440.296429	CubDm22z50zDviwrU4	10.0.0.2	56558	10.0.0.1	22	SYN_seq_jump	-	F	zeek	TCP
+1671636440.375905	CD81rx2En3koeP7a2f	10.0.0.2	56564	10.0.0.1	22	SYN_seq_jump	-	F	zeek	TCP

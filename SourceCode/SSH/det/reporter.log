@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2022-11-05-21-59-32
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1667665772.274520	Reporter::ERROR	failed to read a packet from h1-eth0: The interface went down	(empty)

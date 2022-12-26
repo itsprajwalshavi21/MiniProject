@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2022-12-22-10-14-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1671684201.108261	CFaQkQ3Xu1X3mEGzbb	10.1.3.251	60611	255.255.255.255	161	0.000000	2c	public	3	0	0	0	-	-
+1671684266.802849	CUd8fm4CC9P2PH3FBd	10.1.3.251	41044	255.255.255.255	161	0.997369	2c	public	6	0	0	0	-	-
+#close	2022-12-22-10-15-15

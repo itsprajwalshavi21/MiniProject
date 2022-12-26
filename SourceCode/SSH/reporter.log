@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2022-12-22-08-31-00
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1671678060.359420	Reporter::ERROR	./action.sh |/Input::READER_RAW: Child process exited with non-zero return code 1	(empty)

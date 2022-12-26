@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2022-12-13-11-08-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1670909926.047647	CO6x621uhikoaumK41	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55515	2404:6800:4007:821::2003	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	clientservices.googleapis.com	F	-	-	T	CsiI	-	-	-
+1670909926.170122	Cd7JC33Cc5lq9RwkR8	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55516	2606:4700:83bb:5e56:b3b:426:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+1670909936.221774	CrVom51eXAjnQA6304	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55517	2606:4700:91bb:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+1670909946.212412	CHCHvO5QdmaqD1Zwg	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55518	2606:4700:91bb:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+1670909956.187701	CXMETJ1WeZpLuywi08	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55519	2606:4700:91bb:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+1670909959.502133	CBXoAu4vkov2z5g6kh	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55521	2600:9000:2354:aa00:b:6d14:85c0:93a1	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	x25519	analyticsdcs.ccs.mcafee.com	F	-	h2	T	CsxuknGIti	cfcf41f4405454931e0e071e7a0f49553f477ee4ef16074a7914e04e1d4b9bb2,d95123195fa02c1cc40573336e64c8dfa210b1773e3c6110b6eb26e5437e23a5,68b9c761219a5b1f0131784474665db61bbdb109e00f05ca9f74244ee5f5f52b,d7a7a0fb5d7e2731d771e9484ebcdef71d5f0c3e0a2948782bc83ee0ea699ef4	(empty)	T
+1670909957.781421	C29ES92mMAt4vJ248e	192.168.243.130	55520	52.27.99.145	443	-	-	-	analytics.ccs.mcafee.com	F	-	-	F	C	-	-	-
+1670909966.183469	Cc35Yn2THiaskR81we	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55522	2606:4700:91bb:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+1670909976.190401	CxXwQ11xuMOObBKxSl	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55523	2606:4700:91bb:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+1670909986.186361	CPsObn4xzXZbo73dkh	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55525	2606:4700:91bb:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+1670909993.771922	CyvHTB3Hu4ooyHz5tj	192.168.243.130	55526	38.106.231.204	443	TLSv12	TLS_DHE_RSA_WITH_AES_128_GCM_SHA256	-	chifsr.lenovomm.com	F	-	-	T	CsxknGIti	2bd862594b36512ed1a460201a1be10c56886bd3d5633b83125f349226c77138,f614ae2b101484f15f66f4dda56ee6eb422728f179d94399ede19ac1d85a8bd3	(empty)	T
+1670909996.200272	CGg2PG1JdUvVPD7dG	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55527	2606:4700:91bb:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+1670909985.481592	CDQp8g2QbXq5PhQOZg	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55524	2600:9000:2354:aa00:15:85fe:56c0:93a1	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	variations.brave.com	F	-	-	F	Csi	-	-	-
+1670910006.467937	Cftnom3MowislSd8zl	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55528	2606:4700:839b:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	F	-	-	T	CsiI	-	-	-
+1670910006.504441	CMxdWT1nkjlYYGpMh7	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55529	2606:4700:839b:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	F	-	-	T	CsiI	-	-	-
+1670910016.360254	ClNsW14WXsIev1Kte	2401:4900:33c7:13db:e4cc:d9d2:f77d:eb80	55530	2606:4700:839b:5e56:b3b:427:df20:bd83	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ext2.temp-mail.org	T	-	-	T	CsiI	-	-	-
+#close	2022-12-13-11-10-18
